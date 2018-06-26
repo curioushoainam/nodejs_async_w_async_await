@@ -1,0 +1,24 @@
+1.
+ 	npm install --save --dev babel-cli
+
+2. thêm thông tin vào package.json. Kết quả như sau
+	"scripts": {
+	    "test": "echo \"Error: no test specified\" && exit 1",
+	    "start": "babel-node index.js"
+	  }
+
+3. câu lệnh để chạy file index.js
+	npm start
+
+4. 
+	npm install --save --dev babel-preset-es2015 babel-preset-es2017
+
+5. tạo file config cho babel
+	touch .babelrc
+
+6. thêm thông tin sau vào file .babelrc
+	{
+		"presets": ["es2015", "es2017"]
+	}
+
+	
